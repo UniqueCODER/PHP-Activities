@@ -1,5 +1,5 @@
 <?php
-      for ($x = 0; $x <=200; $x++) {
+      for ($x = 0; $x <=20000; $x++) {
 
             if($x%2 !=0){
                 echo  "Number ".$x." is an Odd element <br>";
