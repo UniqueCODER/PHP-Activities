@@ -1,12 +1,14 @@
 <?php
-     
-    function multipleOfFive($value){
-        for ($number = 0; $number <= $value; $number+=5) {
-            if($number==0){
-                echo"<br";
-            }
-                echo "$number is multiples of 5 <br>";
-        }
+
+    $A = array(2,4,10,16);
+    function multiply($arr, $x)
+    {
+        foreach ($arr as $value) {
+             $arr1[] = $value * $x;
+          }
+          return $arr1; 
     }
-    multipleOfFive(10);
+    $B = multiply($A,5);
+    var_dump($B); 
+
 ?>
