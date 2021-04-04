@@ -30,7 +30,7 @@
                 elseif ($score >=80  && $score < 90){
                     echo "Your grade is: B";
                 }
-                elseif ($score >=90  && $score < 100){
+                elseif ($score >=90  && $score <=100){
                     echo "Your grade is: A";
                 }
             }
